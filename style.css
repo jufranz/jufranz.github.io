@@ -1,0 +1,83 @@
+
+.action {
+  height: 25vh;
+  /* width: 800px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  border: none;
+  text-shadow: 1px 1px 2px black;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.active-action {
+  height: 70vh;
+}
+
+.inactive-action {
+  height: 10vh;
+}
+
+.action h1 {
+  margin: 0;
+}
+
+#action-hire.active-action {
+  background-color: #d14949; /* red */
+}
+
+#action-hire {
+  background-color: #b32828; /* red */
+}
+
+#action-pay.active-action {
+  background-color: #3aa73a; /* green */
+}
+
+#action-pay {
+  background-color: #208f20; /* green */
+}
+
+#action-about.active-action {
+  background-color: #d1ba49; /* yellow */
+}
+
+#action-about {
+  background-color: #b39b28; /* yellow */
+}
+
+#action-contact.active-action {
+  background-color: #503d90; /* blue */
+}
+
+#action-contact {
+  background-color: #3b277b; /* blue */
+}
+
+.info {
+  display: none;
+  height: 50vh;
+}
+
+.active-info {
+  display: block;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
